@@ -19,16 +19,16 @@
 // }
 
 //Exercício trianguloloop
-function loop() {
-    var str = "#";
-    let i = 0
-    while (i < 8) {
-        console.log(str.repeat(i));
-        i++;
-    }
-}
-
-loop()
+// function loop() {
+//     var str = "#";
+//     let i = 0
+//     while (i < 8) {
+//         console.log(str.repeat(i));
+//         i++;
+//     }
+// }
+//
+// loop()
 
 //PRATICANDO WHILE and DO-WHILE
 
