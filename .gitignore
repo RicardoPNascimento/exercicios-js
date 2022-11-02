@@ -1,1 +1,6 @@
 node_modules
+/.idea/.gitignore
+/.idea/exercicios-js.iml
+/.idea/modules.xml
+/package-lock.json
+/.idea/vcs.xml
