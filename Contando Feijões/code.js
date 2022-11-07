@@ -1,21 +1,15 @@
 function countBs(word) {
-    let nome = word.split('')
     let i = 0
-    nome.forEach(b => {
-        if (b.includes('B')) {
-            i++
-        }
+    word.split('').forEach(_ => {
+        _ === 'B' ? i++ : 0
     })
     return (i)
 }
 
 function countChar(word, char) {
-    let nome = word.split('')
     let i = 0
-    nome.forEach(b => {
-        if (b.includes(char)) {
-            i++
-        }
+    word.split('').forEach(_ => {
+        _ === char ? i++ : 0
     })
     return (i)
 }
