@@ -318,16 +318,19 @@
 //
 // console.log(isEven(-1))
 
-function countBs(word,char) {
-    let nome = word.split('')
+function countBs(word, char) {
     let i = 0
-    nome.forEach(b => {
-        if (b.includes(char)) {
+    word.split('').forEach(_ => {
+        if (_ === char) {
             i++
         }
     })
     return (i)
 }
 
+// if (_.includes(char)) {
+//     i++
+// }
 
-console.log(countBs('BBB'))
+
+console.log(countBs('cachorro', 'c'))
