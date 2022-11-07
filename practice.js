@@ -318,17 +318,26 @@
 //
 // console.log(isEven(-1))
 
-function countBs(word, char) {
-    let i = 0
-    word.split('').forEach(_ => {
-        _ === char ? i++ : 0
-    })
-    return (i)
-}
+// function countBs(word, char) {
+//     let i = 0
+//     word.split('').forEach(_ => {
+//         _ === char ? i++ : 0
+//     })
+//     return (i)
+// }
 
 // if (_.includes(char)) {
 //     i++
 // }
+
+
+// function countBs(word, char) {
+//     for (const posicao in word) {
+//         if(word)
+//     }
+// }
+
+
 
 
 console.log(countBs('cachorro', 'y'))

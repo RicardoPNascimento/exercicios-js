@@ -1,9 +1,5 @@
 function countBs(word) {
-    var i = 0
-    word.split('').forEach(_ => {
-        _ === 'B' ? i++ : 0
-    })
-    return (i)
+    return countChar(word, 'B')
 }
 
 function countChar(word, char) {
