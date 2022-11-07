@@ -1,5 +1,5 @@
 function countBs(word) {
-    let i = 0
+    var i = 0
     word.split('').forEach(_ => {
         _ === 'B' ? i++ : 0
     })
@@ -7,7 +7,7 @@ function countBs(word) {
 }
 
 function countChar(word, char) {
-    let i = 0
+    var i = 0
     word.split('').forEach(_ => {
         _ === char ? i++ : 0
     })
