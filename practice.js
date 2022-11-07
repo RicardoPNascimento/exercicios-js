@@ -321,9 +321,7 @@
 function countBs(word, char) {
     let i = 0
     word.split('').forEach(_ => {
-        if (_ === char) {
-            i++
-        }
+        _ === char ? i++ : 0
     })
     return (i)
 }
@@ -333,4 +331,4 @@ function countBs(word, char) {
 // }
 
 
-console.log(countBs('cachorro', 'c'))
+console.log(countBs('cachorro', 'y'))
