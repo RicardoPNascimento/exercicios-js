@@ -375,20 +375,23 @@
 // console.log(Ricardo.locaTime)
 
 class Calculadora {
-    static somar(num1, num2) {
+    somar(num1, num2) {
         return num1 + num2
     }
 
-    static subtrair(num1, num2) {
+    subtrair(num1, num2) {
         return num1 - num2
     }
 
-    static multiplicar(num1, num2) {
+    multiplicar(num1, num2) {
         return num1 * num2
     }
 
-    static dividir(num1, num2) {
+    dividir(num1, num2) {
         return num1 / num2
     }
 }
-console.log(Calculadora.somar(1,3))
+
+const calculadora = new Calculadora()
+
+console.log(calculadora.somar(3, 4))
