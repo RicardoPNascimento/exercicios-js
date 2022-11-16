@@ -421,3 +421,19 @@
 //
 // const somando = new Calculadora(2, 3)
 // console.log(somando.multiplicar)
+
+// import isEven from "./Par ou Impar/code";
+//
+// class Helper {
+//     static isEven(num) {
+//        return isEven(num)
+//     }
+//
+//     static isPositive(num) {
+//
+//     }
+//
+//     static isNegative(num) {
+//
+//     }
+// }
