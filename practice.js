@@ -338,6 +338,57 @@
 // }
 
 
+// console.log(countBs('cachorro', 'y'))
 
+// CLASSE
 
-console.log(countBs('cachorro', 'y'))
+// class MyClass {
+//
+// }
+//
+// const meu =new MyClass()
+// console.log(typeof MyClass)
+
+// class Reptile {
+//     constructor(firstAppearance, local) {
+//         this.firstAppearance = firstAppearance
+//         this.local = local
+//     }
+//
+//     get firstTimeAppearance() {
+//         return this.firstAppearance
+//     }
+//
+//     get locaTime() {
+//         return this.local
+//     }
+//
+//     set localChange(newLocal) {
+//         this.local = newLocal
+//     }
+// }
+//
+//
+// const Ricardo = new Reptile('Developer', 'Simbiose')
+// Ricardo.localChange = ('havan')
+// console.log(Ricardo.firstTimeAppearance)
+// console.log(Ricardo.locaTime)
+
+class Calculadora {
+    static somar(num1, num2) {
+        return num1 + num2
+    }
+
+    static subtrair(num1, num2) {
+        return num1 - num2
+    }
+
+    static multiplicar(num1, num2) {
+        return num1 * num2
+    }
+
+    static dividir(num1, num2) {
+        return num1 / num2
+    }
+}
+console.log(Calculadora.somar(1,3))
