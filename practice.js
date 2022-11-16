@@ -374,24 +374,50 @@
 // console.log(Ricardo.firstTimeAppearance)
 // console.log(Ricardo.locaTime)
 
-class Calculadora {
-    somar(num1, num2) {
-        return num1 + num2
-    }
+// class Calculadora {
+//     somar(num1, num2) {
+//         return num1 + num2
+//     }
+//
+//     subtrair(num1, num2) {
+//         return num1 - num2
+//     }
+//
+//     multiplicar(num1, num2) {
+//         return num1 * num2
+//     }
+//
+//     dividir(num1, num2) {
+//         return num1 / num2
+//     }
+// }
+//
+// const calculadora = new Calculadora()
+//
+// console.log(calculadora.somar(3, 4))
 
-    subtrair(num1, num2) {
-        return num1 - num2
-    }
-
-    multiplicar(num1, num2) {
-        return num1 * num2
-    }
-
-    dividir(num1, num2) {
-        return num1 / num2
-    }
-}
-
-const calculadora = new Calculadora()
-
-console.log(calculadora.somar(3, 4))
+// class Calculadora {
+//     constructor(num1, num2) {
+//         this.num1 = num1
+//         this.num2 = num2
+//     }
+//
+//     get somar() {
+//         return this.num1 + this.num2
+//     }
+//
+//     get subtrair() {
+//         return this.num1 - this.num2
+//     }
+//
+//     get multiplicar() {
+//         return this.num1 * this.num2
+//     }
+//
+//     get dividir() {
+//         return this.num1 / this.num2
+//     }
+// }
+//
+// const somando = new Calculadora(2, 3)
+// console.log(somando.multiplicar)
