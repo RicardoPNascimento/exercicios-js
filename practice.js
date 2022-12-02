@@ -464,18 +464,13 @@ let entries = [
 //
 // }
 //
-function code(entries) {
-    return entries.reduce((prev, curr) => {
-            return [...prev, curr.nome]
-        }, []
-    )
-}
-console.log(code(entries))
-
-
-
-
-
+// function code(entries) {
+//     return entries.reduce((prev, curr) => {
+//             return [...prev, curr.nome]
+//         }, []
+//     )
+// }
+// console.log(code(entries))
 
 
 
