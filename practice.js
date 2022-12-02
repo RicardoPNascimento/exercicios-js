@@ -437,3 +437,81 @@
 //
 //     }
 // }
+
+// let meuArray = [1, 2, 3, {nome: "Ricardo", chave: 123}, [1, 2, 3]]
+// meuArray.push(3)
+// console.log(meuArray[3])
+
+// let FirstArrat = [1, 2, 3, 4, 5]
+// let NewArray = FirstArrat.map(_ => 2 * _)
+// console.log(NewArray)
+
+let entries = [
+    {"nota": 10, "nome": "Lucas"},
+    {"nota": 8, "nome": "Larissa"},
+    {"nota": 4, "nome": "Antonio"}
+]
+
+// function code(entries) {
+//     let nomes = []
+//     entries.filter(nota => {
+//         nota.nota >= 5 ? nomes.push(nota.nome) :0
+//     })
+//     return nomes
+// }
+
+// function Nomes() {
+//
+// }
+//
+function code(entries) {
+    return entries.reduce((prev, curr) => {
+            return [...prev, curr.nome]
+        }, []
+    )
+}
+console.log(code(entries))
+
+
+
+
+
+
+
+
+
+
+// var friends = [{
+//     name: 'Anna',
+//     books: ['Bible', 'Harry Potter'],
+//     age: 21
+// }, {
+//     name: 'Bob',
+//     books: ['War and peace', 'Romeo and Juliet'],
+//     age: 26
+// }, {
+//     name: 'Alice',
+//     books: ['The Lord of the Rings', 'The Shining'],
+//     age: 18
+// }];
+//
+// // allbooks - lista que contém todos os livros de friends +
+// // lista adicional contida em valorInicial
+// var allbooks = friends.reduce(function(prev, curr) {
+//     if (curr.age > 18){
+//         return [...prev, curr.books];
+//     }
+//
+// }, ['Alphabet']);
+//
+// console.log(allbooks)
+
+// console.log(code(entries))
+
+
+
+
+
+
+
+

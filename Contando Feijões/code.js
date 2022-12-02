@@ -4,7 +4,7 @@ function countBs(word) {
 
 function countChar(word, char) {
     var i = 0
-    word.split('').forEach(_ => {
+    word.split('').filter(_ => {
         _ === char ? i++ : 0
     })
     return (i)
