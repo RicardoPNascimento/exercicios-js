@@ -466,16 +466,17 @@ let entries = [
 //
 // function code(entries) {
 //     return entries.reduce((prev, curr) => {
-//             return [...prev, curr.nome]
+//             if (curr.nota > 5) {
+//                 const final = curr.nome
+//                 return [...prev, final]
+//             }
+//
 //         }, []
 //     )
 // }
+
 // console.log(code(entries))
-
-
-
-
-
+//
 // var friends = [{
 //     name: 'Anna',
 //     books: ['Bible', 'Harry Potter'],
@@ -500,11 +501,34 @@ let entries = [
 // }, ['Alphabet']);
 //
 // console.log(allbooks)
-
+//
 // console.log(code(entries))
 
+// REDUCE
+const valores = [
+    {value: 20, type: "CREDIT"},
+    {value: 10, type: "DEBIT"},
+    {value: 10, type: "CREDIT"},
+    {value: 10, type: "DEBIT"}
+]
 
 
+// function code(entries) {
+//     const final = entries.reduce((acc, entries) => {
+//         return acc + entries.value
+//     }, 0)
+// }
+
+const final = valores.reduce((acc, {value, type}) => {
+    return type === 'CREDIT' ? acc + value : acc - value
+}, 0)
+
+console.log('final', final)
+
+
+// console.log(valores.value)
+
+// console.log(code(valores))
 
 
 

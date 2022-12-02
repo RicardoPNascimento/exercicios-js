@@ -1,5 +1,7 @@
 function code(entries) {
-    // code
+    return entries.reduce((acc, {value, type}) => {
+        return type === 'CREDIT' ? acc + value : acc - value
+    }, 0)
 }
 
 module.exports = code
