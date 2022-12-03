@@ -464,21 +464,14 @@ let entries = [
 //
 // }
 //
-function code(entries) {
-    return entries.reduce((prev, curr) => {
-            return [...prev, curr.nome]
-        }, []
-    )
-}
+// function code(entries) {
+//     return entries.reduce((prev, entries) => {
+//             return entries.nota > 5 ? [...prev, entries.nome] : [...prev]
+//         }, []
+//     )
+// }
+
 console.log(code(entries))
-
-
-
-
-
-
-
-
 
 
 // var friends = [{

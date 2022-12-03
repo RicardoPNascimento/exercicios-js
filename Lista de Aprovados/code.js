@@ -1,9 +1,8 @@
 function code(entries) {
-    let nomes = []
-    entries.filter(nota => {
-        nota.nota >= 5 ? nomes.push(nota.nome) :0
-    })
-    return nomes
+    return entries.reduce((prev, {nota, nome}) => {
+            return nota >= 5 ? [...prev, nome] : [...prev]
+        }, []
+    )
 }
 
 module.exports = code
