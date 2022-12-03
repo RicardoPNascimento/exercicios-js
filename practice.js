@@ -471,7 +471,7 @@ let entries = [
 //     )
 // }
 
-console.log(code(entries))
+// console.log(code(entries))
 
 
 // var friends = [{
@@ -502,6 +502,9 @@ console.log(code(entries))
 // console.log(code(entries))
 
 
+let casa = 'acacacac'
+
+console.log(casa.ra)
 
 
 
