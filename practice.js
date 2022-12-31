@@ -502,12 +502,17 @@ let entries = [
 // console.log(code(entries))
 
 
-let casa = 'acacacac'
-
-console.log(casa.ra)
-
-
+// let casa = 'acacacac'
+//
+// console.log(casa.ra)
 
 
+// let casa
+//
+// if(true){
+//     casa = 23
+// }
+//
+// console.log(casa)
 
 
