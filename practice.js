@@ -513,6 +513,6 @@ let entries = [
 //     casa = 23
 // }
 //
-// console.log(casa)
+console.log(casa, "dois")
 
 
