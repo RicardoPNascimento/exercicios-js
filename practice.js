@@ -515,4 +515,60 @@ let entries = [
 //
 // console.log(casa)
 
+// let employees = [
+//     {
+//         "fullName": "Sara Padoin",
+//         "idUser": "5da6e429-3557-4540-ba6a-7603f5f4b9b3",
+//         "email": "sara.padoin@simbioseventures.com"
+//     },
+//     {
+//         "fullName": "Maria Conde",
+//         "idUser": "6e22fcf3-c31f-452d-b73a-38ead0df6c59",
+//         "email": "maria.conde@simbioseventures.com"
+//     },
+//     {
+//         "fullName": "Ricardo Nascimento",
+//         "idUser": "ad0b07c5-67d3-4dcc-b4e6-4ddb37fe37eb",
+//         "email": "ricardop794@gmail.com"
+//     },
+//     {
+//         "fullName": "Marcos Silva",
+//         "idUser": "8dc8d472-9d7e-4098-8e32-8fdfcb7e75af",
+//         "email": "ricardo.nascimento@simbioseventures.com"
+//     }
+// ]
 
+// Maria condé
+// const idUserEvent = "ad0b07c5-67d3-4dcc-b4e6-4ddb37fe37eb"
+//
+// let employeesRemoved = employees.reduce((prev, {idUser, fullName, email}) => {
+//     return idUser === idUserEvent ? {fullName, idUser, email} : {...prev}
+// }, {})
+//
+// let employeesSelected = employees.reduce((prev, {idUser, fullName, email}) => {
+//     return idUser !== idUserEvent ? [...prev, {fullName, idUser, email}] : [...prev]
+// }, [])
+//
+// let final = employees.sort((a) => {
+//     return a.idUser === idUserEvent && -1
+// })
+//
+// employees = employeesSelected
+//
+// employeesSelected.unshift(employeesRemoved)
+//
+// console.log('employee selected', employeesSelected)
+// console.log('employee removed', employeesRemoved)
+// console.log('final', final)
+//
+
+
+import moment from 'moment'
+import 'moment/locale/pt-br'
+
+moment.locale('pt-br')
+
+let date = "2023-05-09T19:00-05:00"
+let fim = moment(date, "YYYY-MM-DDTHH:mm:ss").format("MM")
+
+console.log(fim, 'casa', 'rua')
