@@ -566,11 +566,11 @@ let entries = [
 import moment from 'moment'
 import 'moment/locale/pt-br'
 
-moment.locale('en')
+moment.locale('pt-br')
 
 let date = "2023-05-09T19:00-05:00"
 let fim = moment(date, "YYYY-MM-DDTHH:mm:ss").format("MM")()
 
 console.log(fim, 'casa', 'paraiba', 'casa')
 console.log('normal')
-console.log('less')
+console.log('sweet')
